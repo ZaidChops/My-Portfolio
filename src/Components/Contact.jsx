@@ -1,4 +1,8 @@
 import React from "react";
+import gitImg from '../assets/Github-img-black.png'
+import linkdinImg from '../assets/Linkdin-img.png'
+import fbImg from '../assets/Facebook_logo.png'
+import instaImg from '../assets/Instagram_icon.png'
 
 const Contact = () => {
   return (
@@ -66,13 +70,13 @@ const Contact = () => {
           <div className="w-2/4 h-20 mt-12 ml-56 rounded-full bg-white flex items-center justify-center space-x-14">
 
             <a href="https://github.com/ZaidChops?tab=repositories" target=" ">
-            <img className="w-10 h-10" src="src/assets/Github-img-black.png" alt="" />
+            <img className="w-10 h-10" src={gitImg}/>
             </a>
             <a href="https://www.linkedin.com/in/jaid-hussain-z/" target=" ">
-            <img className="w-10 h-10" src="src/assets/Linkdin-img.png" alt="" />
+            <img className="w-10 h-10" src={linkdinImg} />
             </a>
-            <img className="w-10 h-10" src="src/assets/Facebook_logo.png" alt="" />
-            <img className="w-10 h-10" src="src/assets/Instagram_icon.png" alt="" />
+            <img className="w-10 h-10" src={fbImg} />
+            <img className="w-10 h-10" src={instaImg} />
 
           </div>
         </div>

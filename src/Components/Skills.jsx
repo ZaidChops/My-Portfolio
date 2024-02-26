@@ -1,4 +1,16 @@
 import React from "react";
+import htmlimg from '../assets/Html-img.png'
+import cssimg from '../assets/CSS-img.png'
+import jsimg from '../assets/JS-img.png'
+import reactimg from '../assets/React-img.png'
+import reduximg from '../assets/redux-icon.png'
+import mongoimg from '../assets/mongo-logo.png'
+import nodeimg from '../assets/Node-img.png'
+import expressimg from '../assets/Express-img.png'
+import dsaimg from '../assets/Dsa-img.png'
+import tailimg from '../assets/tailwind-img.png'
+import muiImg from '../assets/Mui-img.png'
+import Bootstrapimg from '../assets/Bootstrap-img.png'
 
 const Skills = () => {
   return (
@@ -8,87 +20,75 @@ const Skills = () => {
           <h1 className="text-5xl font-bold text-gray-700">Technical Skills</h1>
         </div>
 
-        <div className=" flex justify-center mt-14 space-x-7">
-          <button className="w-20 h-12  text-lg  bg-gray-700 text-white rounded-xl ">
-            ALL
-          </button>
-          <button className="w-36 h-12 text-lg  bg-gray-700 text-white rounded-xl">
-            FRONT-END
-          </button>
-          <button className="w-32 h-12 text-lg  bg-gray-700 text-white rounded-xl">
-            BACK-END
-          </button>
-        </div>
-
         <div className="w-3/4 mt-10 pl-14 grid grid-cols-4  ">
           <div className="w-48 mt-10 p-3 pt-7 rounded-lg shadow-md shadow-black flex items-center flex-col hover:animate-pulse -z-10">
-            <img className="w-32" src="src/assets/Html-img.png" alt="" />
+            <img className="w-32" src={htmlimg} />
 
             <h2 className="pt-4 text-2xl font-semibold text-gray-700">HTML</h2>
           </div>
 
           <div className="w-48 mt-10 p-3 pt-7 rounded-lg shadow-md shadow-black flex items-center flex-col hover:animate-pulse">
-            <img className="w-32" src="src/assets/CSS-img.png" alt="" />
+            <img className="w-32" src={cssimg} />
 
             <h2 className="pt-4 text-2xl font-semibold text-gray-700">CSS</h2>
           </div>
 
           <div className="w-48 mt-10 p-3 pt-7 rounded-lg shadow-md shadow-black flex items-center flex-col hover:animate-pulse">
-            <img className="w-32" src="src/assets/JS-img.png" alt="" />
+            <img className="w-32" src={jsimg} />
 
             <h2 className="pt-4 text-2xl font-semibold text-gray-700">Java Script</h2>
           </div>
 
           <div className="w-48 mt-10 p-3 pt-7 rounded-lg shadow-md shadow-black flex items-center flex-col hover:animate-pulse">
-            <img className="w-32" src="src/assets/React-img.png" alt="" />
+            <img className="w-32" src={reactimg} />
 
             <h2 className="pt-4 text-2xl font-semibold text-gray-700">React</h2>
           </div>
 
           <div className="w-48 mt-10 p-3 pt-7 rounded-lg shadow-md shadow-black flex items-center flex-col">
-            <img className="w-32" src="src/assets/Redux-img.svg" alt="" />
+            <img className="w-32" src={reduximg} />
 
             <h2 className="pt-4 text-2xl font-semibold text-gray-700">Redux</h2>
           </div>
 
           <div className="w-48 mt-10 p-3 pt-7 rounded-lg shadow-md shadow-black flex items-center flex-col">
-            <img className="w-32" src="src/assets/Mongo-img.svg" alt="" />
+            <img className="w-32" src={mongoimg} />
 
             <h2 className="pt-4 text-2xl font-semibold text-gray-700">Mongo Db</h2>
           </div>
 
           <div className="w-48 mt-10 p-3 pt-7 rounded-lg shadow-md shadow-black flex items-center flex-col">
-            <img className="w-32" src="src/assets/Node-img.png" alt="" />
+            <img className="w-32" src={nodeimg} />
 
             <h2 className="pt-4 text-2xl font-semibold text-gray-700">Node js</h2>
           </div>
 
           <div className="w-48 mt-10 p-3 pt-7 rounded-lg shadow-md shadow-black flex items-center flex-col">
-            <img className="w-32" src="src/assets/Express-img.png" alt="" />
+            <img className="w-32" src={expressimg} />
 
             <h2 className="pt-4 text-2xl font-semibold text-gray-700">Express js</h2>
           </div>
 
           <div className="w-48 mt-10 p-3 pt-7 rounded-lg shadow-md shadow-black flex items-center flex-col">
-            <img className="w-32" src="src/assets/Dsa-img.png" alt="" />
+            <img className="w-32" src={dsaimg} />
 
             <h2 className="pt-4 text-2xl font-semibold text-gray-700">DSA</h2>
           </div>
 
           <div className="w-48 mt-10 p-3 pt-7 rounded-lg shadow-md shadow-black flex items-center justify-around flex-col">
-            <img className="w-32" src="src/assets/tailwind-img.png" alt="" />
+            <img className="w-32" src={tailimg} />
 
             <h2 className="pt-4 text-2xl font-semibold text-gray-700">Tailwind CSS</h2>
           </div>
 
           <div className="w-48 mt-10 p-3 pt-7 rounded-lg shadow-md shadow-black flex items-center flex-col">
-            <img className="w-32" src="src/assets/Mui-img.png" alt="" />
+            <img className="w-32" src={muiImg} />
 
             <h2 className="pt-4 text-2xl font-semibold text-gray-700">Material UI</h2>
           </div>
 
           <div className="w-48 mt-10 p-3 pt-7 rounded-lg shadow-md shadow-black flex items-center justify-around flex-col">
-            <img className="w-32" src="src/assets/Bootstrap-img.png" alt="" />
+            <img className="w-32" src={Bootstrapimg} />
 
             <h2 className="pt-4 text-2xl font-semibold text-gray-700">Bootstrap</h2>
           </div>

@@ -1,5 +1,10 @@
 import React from "react";
 import eComImg from "../assets/Ecom-ss.jpg"
+import reduxLogo from "../assets/redux-icon.png"
+import reactLogo from "../assets/React-img.png"
+import jsLogo from "../assets/JS-img.png"
+import cssLogo from "../assets/CSS-img.png"
+import htmlLogo from "../assets/Html-img.png"
 
 const Projects = () => {
   return (
@@ -23,31 +28,31 @@ const Projects = () => {
               </h2>
               <span className="mt-7 flex justify-center space-x-4">
                 <div className="w-20 mt- p- pt- flex items-center flex-col">
-                  <img className="w-11" src="src/assets/Html-img.png" alt="" />
+                  <img className="w-11" src={htmlLogo} />
 
                   <h2 className="pt-4 text-sm text-gray-800 font-semibold">HTML</h2>
                 </div>
 
                 <div className="w-20 mt- p- pt- flex items-center flex-col">
-                  <img className="w-11" src="src/assets/CSS-img.png" alt="" />
+                  <img className="w-11" src={cssLogo} />
 
                   <h2 className="pt-4 text-sm text-gray-800 font-semibold">CSS</h2>
                 </div>
 
                 <div className="w-20 mt- p- pt- flex items-center flex-col">
-                  <img className="w-11" src="src/assets/JS-img.png" alt="" />
+                  <img className="w-11" src={jsLogo} />
 
                   <h2 className="pt-4 text-sm text-gray-800 font-semibold">Javascript</h2>
                 </div>
 
                 <div className="w-20 mt- p- pt- flex items-center flex-col">
-                  <img className="w-11" src="src/assets/React-img.png" alt="" />
+                  <img className="w-11" src={reactLogo} />
 
                   <h2 className="pt-4 text-sm text-gray-800 font-semibold">React</h2>
                 </div>
 
                 <div className="w-20 mt- p- pt- flex items-center flex-col">
-                  <img className="w-11" src="src/assets/Redux-img.svg" alt="" />
+                  <img className="w-11" src={reduxLogo} />
 
                   <h2 className="pt-4 text-sm text-gray-800 font-semibold">Redux</h2>
                 </div> 
