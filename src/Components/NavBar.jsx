@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import mylogo from "public/assets/my-logo-4.png"
-import mylogo1 from "public/assets/my-logo-2.png"
+import mylogo from "../assets/my-logo-4.png"
+import mylogo1 from "../assets/my-logo-2.png"
 import { SlMenu } from "react-icons/sl";
 import { RxCross2 } from "react-icons/rx";
 

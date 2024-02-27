@@ -1,18 +1,18 @@
 import React, { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import htmlimg from "public/assets/Html-img.png";
-import cssimg from "public/assets/CSS-img.png";
-import jsimg from "public/assets/JS-img.png";
-import reactimg from "public/assets/React-img.png";
-import reduximg from "public/assets/redux-icon.png";
-import mongoimg from "public/assets/mongo-logo.png";
-import nodeimg from "public/assets/Node-img.png";
-import expressimg from "public/assets/Express-img.png";
-import dsaimg from "public/assets/Dsa-img.png";
-import tailimg from "public/assets/tailwind-img.png";
-import muiImg from "public/assets/Mui-img.png";
-import Bootstrapimg from "public/assets/Bootstrap-img.png";
+import htmlimg from "../assets/Html-img.png";
+import cssimg from "../assets/CSS-img.png";
+import jsimg from "../assets/JS-img.png";
+import reactimg from "../assets/React-img.png";
+import reduximg from "../assets/redux-icon.png";
+import mongoimg from "../assets/mongo-logo.png";
+import nodeimg from "../assets/Node-img.png";
+import expressimg from "../assets/Express-img.png";
+import dsaimg from "../assets/Dsa-img.png";
+import tailimg from "../assets/tailwind-img.png";
+import muiImg from "../assets/Mui-img.png";
+import Bootstrapimg from "../assets/Bootstrap-img.png";
 
 const Skills = () => {
 

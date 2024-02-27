@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import eComImg from "public/assets/Ecom-ss.jpg"
-import reduxLogo from "public/assets/redux-icon.png"
-import reactLogo from "public/assets/React-img.png"
-import jsLogo from "public/assets/JS-img.png"
-import cssLogo from "public/assets/CSS-img.png"
-import htmlLogo from "public/assets/Html-img.png"
+import eComImg from "../assets/Ecom-ss.jpg"
+import reduxLogo from "../assets/redux-icon.png"
+import reactLogo from "../assets/React-img.png"
+import jsLogo from "../assets/JS-img.png"
+import cssLogo from "../assets/CSS-img.png"
+import htmlLogo from "../assets/Html-img.png"
 
 const Projects = () => {
 

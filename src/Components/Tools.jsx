@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import vsImg from 'public/assets/vs-img.png'
-import GithubImg from 'public/assets/Github-img.png'
-import GitImg from 'public/assets/Git-img.png'
+import vsImg from '../assets/vs-img.png'
+import GithubImg from '../assets/Github-img.png'
+import GitImg from '../assets/Git-img.png'
 
 const Tools = () => {
 
