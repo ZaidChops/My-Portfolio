@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import gitImg from '../assets/Github-img-black.png'
-import linkdinImg from '../assets/Linkdin-img.png'
-import fbImg from '../assets/Facebook_logo.png'
-import instaImg from '../assets/Instagram_icon.png'
+import gitImg from 'public/assets/Github-img-black.png'
+import linkdinImg from 'public/assets/Linkdin-img.png'
+import fbImg from 'public/assets/Facebook_logo.png'
+import instaImg from 'public/assets/Instagram_icon.png'
 
 const Contact = () => {
 
