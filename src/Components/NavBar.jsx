@@ -50,7 +50,7 @@ const NavBar = () => {
           {/* #594C8D */}
         </div>
         <ul className=" flex  justify-end  ">
-        {s &&   <div data-aos="fade-down" data-aos-duration="1200" className="">
+        {s &&   <div data-aos="fade-down" data-aos-duration="1200" className=" ">
             <a href="#home" className="mr-6 text-xl font-semibold">
               Home
             </a>
@@ -83,7 +83,7 @@ const NavBar = () => {
           //   </a>
           // </div>
           }
-          <button className="mr-10 w-24 " onClick={set}>{!s ? <SlMenu style={color ? { fontSize:"40px", color:"#374151"} : { fontSize:"40px", color:"white"}}  /> : <RxCross2 style={color ? { fontSize:"40px", color:"#374151"} : { fontSize:"40px", color:"white"}} />}</button>
+          <button className="mr-10 w-24 hover:scale-110 transition-all duration-500 " onClick={set}>{!s ? <SlMenu style={color ? { fontSize:"40px", color:"#374151"} : { fontSize:"40px", color:"white"}}  /> : <RxCross2 style={color ? { fontSize:"40px", color:"#374151"} : { fontSize:"40px", color:"white"}} />}</button>
         </ul>
       </div>
     </>
