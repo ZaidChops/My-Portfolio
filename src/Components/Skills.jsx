@@ -28,19 +28,19 @@ const Skills = () => {
         </div>
 
         <div className="w-3/4 mt-10 pl-14 grid grid-cols-4  ">
-          <div data-aos="zoom-in-up" className="w-48 mt-10 p-3 pt-7 rounded-lg shadow-md shadow-black flex items-center flex-col hover:animate-pulse ">
+          <div data-aos="zoom-in-up" className="w-48 mt-10 p-3 pt-7 rounded-lg shadow-[0px_1px_10px_rgba(0,0,0,0.19)] flex items-center flex-col hover:animate-pulse ">
             <img className="w-32" src={htmlimg} />
 
             <h2 className="pt-4 text-2xl font-semibold text-gray-700">HTML</h2>
           </div>
 
-          <div data-aos="zoom-in-up" className="w-48 mt-10 p-3 pt-7 rounded-lg shadow-md shadow-black flex items-center flex-col hover:animate-pulse">
+          <div data-aos="zoom-in-up" className="w-48 mt-10 p-3 pt-7 rounded-lg shadow-[0px_1px_10px_rgba(0,0,0,0.19)]  flex items-center flex-col hover:animate-pulse">
             <img className="w-32" src={cssimg} />
 
             <h2 className="pt-4 text-2xl font-semibold text-gray-700">CSS</h2>
           </div>
 
-          <div data-aos="zoom-in-up" className="w-48 mt-10 p-3 pt-7 rounded-lg shadow-md shadow-black flex items-center flex-col hover:animate-pulse">
+          <div data-aos="zoom-in-up" className="w-48 mt-10 p-3 pt-7 rounded-lg shadow-[0px_1px_10px_rgba(0,0,0,0.19)] flex items-center flex-col hover:animate-pulse">
             <img className="w-32" src={jsimg} />
 
             <h2 className="pt-4 text-2xl font-semibold text-gray-700">
@@ -48,19 +48,19 @@ const Skills = () => {
             </h2>
           </div>
 
-          <div data-aos="zoom-in-up" className="w-48 mt-10 p-3 pt-7 rounded-lg shadow-md shadow-black flex items-center flex-col hover:animate-pulse">
+          <div data-aos="zoom-in-up" className="w-48 mt-10 p-3 pt-7 rounded-lg shadow-[0px_1px_10px_rgba(0,0,0,0.19)] flex items-center flex-col hover:animate-pulse">
             <img className="w-32" src={reactimg} />
 
             <h2 className="pt-4 text-2xl font-semibold text-gray-700">React</h2>
           </div>
 
-          <div data-aos="zoom-in-up" className="w-48 mt-10 p-3 pt-7 rounded-lg shadow-md shadow-black flex items-center flex-col hover:animate-pulse">
+          <div data-aos="zoom-in-up" className="w-48 mt-10 p-3 pt-7 rounded-lg shadow-[0px_1px_10px_rgba(0,0,0,0.19)] flex items-center flex-col hover:animate-pulse">
             <img className="w-32" src={reduximg} />
 
             <h2 className="pt-4 text-2xl font-semibold text-gray-700">Redux</h2>
           </div>
 
-          <div data-aos="zoom-in-up" className="w-48 mt-10 p-3 pt-7 rounded-lg shadow-md shadow-black flex items-center flex-col hover:animate-pulse">
+          <div data-aos="zoom-in-up" className="w-48 mt-10 p-3 pt-7 rounded-lg shadow-[0px_1px_10px_rgba(0,0,0,0.19)] flex items-center flex-col hover:animate-pulse">
             <img className="w-32" src={mongoimg} />
 
             <h2 className="pt-4 text-2xl font-semibold text-gray-700">
@@ -68,7 +68,7 @@ const Skills = () => {
             </h2>
           </div>
 
-          <div data-aos="zoom-in-up" className="w-48 mt-10 p-3 pt-7 rounded-lg shadow-md shadow-black flex items-center flex-col hover:animate-pulse">
+          <div data-aos="zoom-in-up" className="w-48 mt-10 p-3 pt-7 rounded-lg shadow-[0px_1px_10px_rgba(0,0,0,0.19)] flex items-center flex-col hover:animate-pulse">
             <img className="w-32" src={nodeimg} />
 
             <h2 className="pt-4 text-2xl font-semibold text-gray-700">
@@ -76,7 +76,7 @@ const Skills = () => {
             </h2>
           </div>
 
-          <div data-aos="zoom-in-up" className="w-48 mt-10 p-3 pt-7 rounded-lg shadow-md shadow-black flex items-center flex-col hover:animate-pulse">
+          <div data-aos="zoom-in-up" className="w-48 mt-10 p-3 pt-7 rounded-lg shadow-[0px_1px_10px_rgba(0,0,0,0.19)] flex items-center flex-col hover:animate-pulse">
             <img className="w-32" src={expressimg} />
 
             <h2 className="pt-4 text-2xl font-semibold text-gray-700">
@@ -84,13 +84,13 @@ const Skills = () => {
             </h2>
           </div>
 
-          <div data-aos="zoom-in-up" className="w-48 mt-10 p-3 pt-7 rounded-lg shadow-md shadow-black flex items-center flex-col hover:animate-pulse">
+          <div data-aos="zoom-in-up" className="w-48 mt-10 p-3 pt-7 rounded-lg shadow-[0px_1px_10px_rgba(0,0,0,0.19)] flex items-center flex-col hover:animate-pulse">
             <img className="w-32" src={dsaimg} />
 
             <h2 className="pt-4 text-2xl font-semibold text-gray-700">DSA</h2>
           </div>
 
-          <div data-aos="zoom-in-up" className="w-48 mt-10 p-3 pt-7 rounded-lg shadow-md shadow-black flex items-center justify-around flex-col hover:animate-pulse">
+          <div data-aos="zoom-in-up" className="w-48 mt-10 p-3 pt-7 rounded-lg shadow-[0px_1px_10px_rgba(0,0,0,0.19)] flex items-center justify-around flex-col hover:animate-pulse">
             <img className="w-32" src={tailimg} />
 
             <h2 className="pt-4 text-2xl font-semibold text-gray-700">
@@ -98,7 +98,7 @@ const Skills = () => {
             </h2>
           </div>
 
-          <div data-aos="zoom-in-up" className="w-48 mt-10 p-3 pt-7 rounded-lg shadow-md shadow-black flex items-center flex-col hover:animate-pulse">
+          <div data-aos="zoom-in-up" className="w-48 mt-10 p-3 pt-7 rounded-lg shadow-[0px_1px_10px_rgba(0,0,0,0.19)] flex items-center flex-col hover:animate-pulse">
             <img className="w-32" src={muiImg} />
 
             <h2 className="pt-4 text-2xl font-semibold text-gray-700">
@@ -106,7 +106,7 @@ const Skills = () => {
             </h2>
           </div>
 
-          <div data-aos="zoom-in-up" className="w-48 mt-10 p-3 pt-7 rounded-lg shadow-md shadow-black flex items-center justify-around flex-col hover:animate-pulse">
+          <div data-aos="zoom-in-up" className="w-48 mt-10 p-3 pt-7 rounded-lg shadow-[0px_1px_10px_rgba(0,0,0,0.19)] flex items-center justify-around flex-col hover:animate-pulse">
             <img className="w-32" src={Bootstrapimg} />
 
             <h2 className="pt-4 text-2xl font-semibold text-gray-700">
