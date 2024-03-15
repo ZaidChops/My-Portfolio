@@ -14,7 +14,7 @@ const NavBar = () => {
   const changeMobView = () => {
     let width = window.innerWidth;
 
-    if (width < "555") {
+    if (width < "768") {
       setMobView(true);
     } else {
       setMobView(false);
@@ -55,8 +55,8 @@ const NavBar = () => {
         <div
           className={`${
             color
-              ? "w-full sm:w-full h-16 z-50 shadow-xl flex items-center justify-between  flex-grow-1 fixed  bg-white text-gray-700 transition-all"
-              : "w-full sm:w-full h-20 z-50  flex items-center justify-between flex-grow-1 fixed  bg-transparent text-white transition-all"
+              ? "w-full sm:w-full h-16 z-50 shadow-xl flex items-center justify-between  flex-grow-1 fixed  bg-white text-gray-700 transition-all overflow-hidden"
+              : "w-full sm:w-full h-20 z-50  flex items-center justify-between flex-grow-1 fixed  bg-transparent text-white transition-all overflow-hidden"
           }`}
         >
           <div className="w-32 max-sm:w-20 ml-16 max-sm:ml-5">
@@ -125,8 +125,8 @@ const NavBar = () => {
           <div
             className={`${
               color
-                ? "w-full sm:w-full h-16 z-50  flex items-center justify-between  flex-grow-1 fixed  bg-white text-gray-700 transition-all border-b-2 border-gray-400"
-                : "w-full sm:w-full h-16 z-50  flex items-center justify-between flex-grow-1 fixed  bg-transparent text-white transition-all"
+                ? "w-full sm:w-full h-16 z-50  flex items-center justify-between  flex-grow-1 fixed  bg-white text-gray-700 transition-all border-b border-gray-300 overflow-hidden "
+                : "w-full sm:w-full h-16 z-50  flex items-center justify-between flex-grow-1 fixed  bg-transparent text-white transition-all overflow-hidden"
             }`}
           >
             <div className="w-32 max-sm:w-20 ml-16 max-sm:ml-5">
@@ -157,18 +157,18 @@ const NavBar = () => {
             <div
               className={`${
                 color
-                  ? "w-full sm:w-full h-16 z-50 mt-16  flex items-center justify-center   fixed  bg-white text-gray-700 transition-all shadow-xl "
-                  : "w-full sm:w-full h-20 z-50 mt-10 flex items-center justify-center fixed  bg-transparent text-white transition-all"
+                  ? "w-full sm:w-full h-16 z-50 mt-16  flex items-center justify-between   fixed  bg-white text-gray-700 transition-all shadow-xl overflow-hidden "
+                  : "w-full sm:w-full h-20 z-50 mt-10 flex items-center justify-between fixed  bg-transparent text-white transition-all overflow-hidden"
               }`}
             >
-              <ul className=" flex  justify-end  ">
+              <ul className="w-full px-5 flex items-center justify-between text-center  ">
                 {s && (
                   <div
                     data-aos="fade-down"
                     data-aos-duration="1200"
                     className=" "
                   >
-                    <a href="#home" className="mr-3 z-30 text-md  ">
+                    <a href="#home" className=" z-30 text-md  ">
                       Home
                     </a>
                   </div>
@@ -179,7 +179,7 @@ const NavBar = () => {
                     data-aos-duration="1000"
                     className=""
                   >
-                    <a href="#about" className="mr-3 z-30 text-md  ">
+                    <a href="#about" className=" z-30 text-md  ">
                       About
                     </a>
                   </div>
@@ -191,7 +191,7 @@ const NavBar = () => {
                     data-aos-duration="800"
                     className=""
                   >
-                    <a href="#skills" className="mr-3 z-30 text-md  ">
+                    <a href="#skills" className=" z-30 text-md  ">
                       Skills
                     </a>
                   </div>
@@ -202,7 +202,7 @@ const NavBar = () => {
                     data-aos-duration="600"
                     className=""
                   >
-                    <a href="#project" className="mr-3 z-30 text-md  ">
+                    <a href="#project" className=" z-30 text-md  ">
                       Projects
                     </a>
                   </div>
@@ -213,7 +213,7 @@ const NavBar = () => {
                     data-aos-duration="400"
                     className=""
                   >
-                    <a href="#contact" className="mr-3 z-30 text-md  ">
+                    <a href="#contact" className=" z-30 text-md  ">
                       Contact
                     </a>
                   </div>
