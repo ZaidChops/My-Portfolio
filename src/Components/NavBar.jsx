@@ -161,7 +161,8 @@ const NavBar = () => {
                   : "w-full sm:w-full h-20 z-50 mt-10 flex items-center justify-between fixed  bg-transparent text-white transition-all overflow-hidden"
               }`}
             >
-              <ul className="w-full px-5 flex items-center justify-between text-center  ">
+              <ul className="w-full px-5 sm:px-1 flex items-center justify-between sm:flex sm:items-center sm:justify-between  ">
+                <div>
                 {s && (
                   <div
                     data-aos="fade-down"
@@ -173,6 +174,8 @@ const NavBar = () => {
                     </a>
                   </div>
                 )}
+                </div>
+                <div>
                 {s && (
                   <div
                     data-aos="fade-down"
@@ -184,7 +187,9 @@ const NavBar = () => {
                     </a>
                   </div>
                 )}
+                </div>
 
+                <div>
                 {s && (
                   <div
                     data-aos="fade-down"
@@ -196,6 +201,8 @@ const NavBar = () => {
                     </a>
                   </div>
                 )}
+                </div>
+                <div>
                 {s && (
                   <div
                     data-aos="fade-down"
@@ -207,6 +214,8 @@ const NavBar = () => {
                     </a>
                   </div>
                 )}
+                </div>
+                <div>
                 {s && (
                   <div
                     data-aos="fade-down"
@@ -218,6 +227,7 @@ const NavBar = () => {
                     </a>
                   </div>
                 )}
+                </div>
               </ul>
             </div>
           )}

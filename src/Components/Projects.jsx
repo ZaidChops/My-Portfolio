@@ -45,43 +45,43 @@ const Projects = () => {
 
               <div
                 id="carouselExample"
-                class="carousel slide"
+                className="carousel slide"
                 data-bs-ride="carousel"
               >
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src={eComImg} class="d-block w-100" alt="..." />
+                <div className="carousel-inner">
+                  <div className="carousel-item active">
+                    <img src={eComImg} className="d-block w-100" alt="..." />
                   </div>
-                  <div class="carousel-item">
-                    <img src={eComImg02} class="d-block w-100" alt="..." />
+                  <div className="carousel-item">
+                    <img src={eComImg02} className="d-block w-100" alt="..." />
                   </div>
-                  <div class="carousel-item">
-                    <img src={eComImg03} class="d-block w-100" alt="..." />
+                  <div className="carousel-item">
+                    <img src={eComImg03} className="d-block w-100" alt="..." />
                   </div>
                 </div>
                 <button
-                  class="carousel-control-prev"
+                  className="carousel-control-prev"
                   type="button"
                   data-bs-target="#carouselExample"
                   data-bs-slide="prev"
                 >
                   <span
-                    class="carousel-control-prev-icon"
+                    className="carousel-control-prev-icon"
                     aria-hidden="true"
                   ></span>
-                  <span class="visually-hidden">Previous</span>
+                  <span className="visually-hidden">Previous</span>
                 </button>
                 <button
-                  class="carousel-control-next "
+                  className="carousel-control-next "
                   type="button"
                   data-bs-target="#carouselExample"
                   data-bs-slide="next"
                 >
                   <span
-                    class="carousel-control-next-icon"
+                    className="carousel-control-next-icon"
                     aria-hidden="true"
                   ></span>
-                  <span class="visually-hidden">Next</span>
+                  <span className="visually-hidden">Next</span>
                 </button>
               </div>
             </div>
@@ -162,43 +162,43 @@ const Projects = () => {
             <div className="w-2/5 flex items-center">
               <div
                 id="carouselExample"
-                class="carousel slide"
+                className="carousel slide"
                 data-bs-ride="carousel"
               >
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src={crypto01} class="d-block w-100" alt="..." />
+                <div className="carousel-inner">
+                  <div className="carousel-item active">
+                    <img src={crypto01} className="d-block w-100" alt="..." />
                   </div>
-                  <div class="carousel-item">
-                    <img src={crypto02} class="d-block w-100" alt="..." />
+                  <div className="carousel-item">
+                    <img src={crypto02} className="d-block w-100" alt="..." />
                   </div>
-                  <div class="carousel-item">
-                    <img src={crypto03} class="d-block w-100" alt="..." />
+                  <div className="carousel-item">
+                    <img src={crypto03} className="d-block w-100" alt="..." />
                   </div>
                 </div>
                 <button
-                  class="carousel-control-prev"
+                  className="carousel-control-prev"
                   type="button"
                   data-bs-target="#carouselExample"
                   data-bs-slide="prev"
                 >
                   <span
-                    class="carousel-control-prev-icon"
+                    className="carousel-control-prev-icon"
                     aria-hidden="true"
                   ></span>
-                  <span class="visually-hidden">Previous</span>
+                  <span className="visually-hidden">Previous</span>
                 </button>
                 <button
-                  class="carousel-control-next "
+                  className="carousel-control-next "
                   type="button"
                   data-bs-target="#carouselExample"
                   data-bs-slide="next"
                 >
                   <span
-                    class="carousel-control-next-icon"
+                    className="carousel-control-next-icon"
                     aria-hidden="true"
                   ></span>
-                  <span class="visually-hidden">Next</span>
+                  <span className="visually-hidden">Next</span>
                 </button>
               </div>
             </div>
@@ -283,40 +283,40 @@ const Projects = () => {
             <div className="w-2/5 flex items-center">
               <div
                 id="carouselExample"
-                class="carousel slide"
+                className="carousel slide"
                 data-bs-ride="carousel"
               >
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src={movie01} class="d-block w-100" alt="..." />
+                <div className="carousel-inner">
+                  <div className="carousel-item active">
+                    <img src={movie01} className="d-block w-100" alt="..." />
                   </div>
-                  <div class="carousel-item">
-                    <img src={movie02} class="d-block w-100" alt="..." />
+                  <div className="carousel-item">
+                    <img src={movie02} className="d-block w-100" alt="..." />
                   </div>
                 </div>
                 <button
-                  class="carousel-control-prev"
+                  className="carousel-control-prev"
                   type="button"
                   data-bs-target="#carouselExample"
                   data-bs-slide="prev"
                 >
                   <span
-                    class="carousel-control-prev-icon"
+                    className="carousel-control-prev-icon"
                     aria-hidden="true"
                   ></span>
-                  <span class="visually-hidden">Previous</span>
+                  <span className="visually-hidden">Previous</span>
                 </button>
                 <button
-                  class="carousel-control-next "
+                  className="carousel-control-next "
                   type="button"
                   data-bs-target="#carouselExample"
                   data-bs-slide="next"
                 >
                   <span
-                    class="carousel-control-next-icon"
+                    className="carousel-control-next-icon"
                     aria-hidden="true"
                   ></span>
-                  <span class="visually-hidden">Next</span>
+                  <span className="visually-hidden">Next</span>
                 </button>
               </div>
             </div>
@@ -401,46 +401,46 @@ const Projects = () => {
             <div className="w-2/5 flex items-center">
               <div
                 id="carouselExample"
-                class="carousel slide"
+                className="carousel slide"
                 data-bs-ride="carousel"
               >
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src={americanTC01} class="d-block w-100" alt="..." />
+                <div className="carousel-inner">
+                  <div className="carousel-item active">
+                    <img src={americanTC01} className="d-block w-100" alt="..." />
                   </div>
-                  <div class="carousel-item">
-                    <img src={americanTC02} class="d-block w-100" alt="..." />
+                  <div className="carousel-item">
+                    <img src={americanTC02} className="d-block w-100" alt="..." />
                   </div>
-                  <div class="carousel-item">
-                    <img src={americanTC03} class="d-block w-100" alt="..." />
+                  <div className="carousel-item">
+                    <img src={americanTC03} className="d-block w-100" alt="..." />
                   </div>
-                  <div class="carousel-item">
-                    <img src={americanTC04} class="d-block w-100" alt="..." />
+                  <div className="carousel-item">
+                    <img src={americanTC04} className="d-block w-100" alt="..." />
                   </div>
                 </div>
                 <button
-                  class="carousel-control-prev"
+                  className="carousel-control-prev"
                   type="button"
                   data-bs-target="#carouselExample"
                   data-bs-slide="prev"
                 >
                   <span
-                    class="carousel-control-prev-icon"
+                    className="carousel-control-prev-icon"
                     aria-hidden="true"
                   ></span>
-                  <span class="visually-hidden">Previous</span>
+                  <span className="visually-hidden">Previous</span>
                 </button>
                 <button
-                  class="carousel-control-next "
+                  className="carousel-control-next "
                   type="button"
                   data-bs-target="#carouselExample"
                   data-bs-slide="next"
                 >
                   <span
-                    class="carousel-control-next-icon"
+                    className="carousel-control-next-icon"
                     aria-hidden="true"
                   ></span>
-                  <span class="visually-hidden">Next</span>
+                  <span className="visually-hidden">Next</span>
                 </button>
               </div>
             </div>
@@ -527,46 +527,46 @@ const Projects = () => {
             <div className="w-2/5 flex items-center">
               <div
                 id="carouselExample"
-                class="carousel slide"
+                className="carousel slide"
                 data-bs-ride="carousel"
               >
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src={rapido01} class="d-block w-100" alt="..." />
+                <div className="carousel-inner">
+                  <div className="carousel-item active">
+                    <img src={rapido01} className="d-block w-100" alt="..." />
                   </div>
-                  <div class="carousel-item">
-                    <img src={rapido02} class="d-block w-100" alt="..." />
+                  <div className="carousel-item">
+                    <img src={rapido02} className="d-block w-100" alt="..." />
                   </div>
-                  <div class="carousel-item">
-                    <img src={rapido03} class="d-block w-100" alt="..." />
+                  <div className="carousel-item">
+                    <img src={rapido03} className="d-block w-100" alt="..." />
                   </div>
-                  <div class="carousel-item">
-                    <img src={rapido04} class="d-block w-100" alt="..." />
+                  <div className="carousel-item">
+                    <img src={rapido04} className="d-block w-100" alt="..." />
                   </div>
                 </div>
                 <button
-                  class="carousel-control-prev"
+                  className="carousel-control-prev"
                   type="button"
                   data-bs-target="#carouselExample"
                   data-bs-slide="prev"
                 >
                   <span
-                    class="carousel-control-prev-icon"
+                    className="carousel-control-prev-icon"
                     aria-hidden="true"
                   ></span>
-                  <span class="visually-hidden">Previous</span>
+                  <span className="visually-hidden">Previous</span>
                 </button>
                 <button
-                  class="carousel-control-next "
+                  className="carousel-control-next "
                   type="button"
                   data-bs-target="#carouselExample"
                   data-bs-slide="next"
                 >
                   <span
-                    class="carousel-control-next-icon"
+                    className="carousel-control-next-icon"
                     aria-hidden="true"
                   ></span>
-                  <span class="visually-hidden">Next</span>
+                  <span className="visually-hidden">Next</span>
                 </button>
               </div>
             </div>
