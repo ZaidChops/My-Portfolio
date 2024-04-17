@@ -15,7 +15,7 @@ const About = () => {
           <h1 className="text-5xl font-bold text-gray-700">About Me</h1>
         </div>
 
-        <div className="flex items-center justify-center w-full mt-16">
+        <div className="flex max-sm:flex-col-reverse items-center justify-center w-full mt-16">
           <div data-aos="zoom-in-up" className="w-2/5 mr-14 ml-28 ">
             <h1 className="text-3xl text-gray-700 sm:mt-12">
               The Best Way To Learn Something Is To Build Something.
@@ -36,7 +36,7 @@ const About = () => {
             </button>
           </div>
 
-          <div data-aos="zoom-in-up" className="w-2/5 mr-5 flex  justify-center ">
+          <div data-aos="zoom-in-up" className="aspect-square w-96 max-md:w-72 mr-5 flex  justify-center ">
             <img src={myImg} id="p1" />
           </div>
         </div>

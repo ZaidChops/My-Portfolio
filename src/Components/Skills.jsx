@@ -27,7 +27,7 @@ const Skills = () => {
           <h1 className="text-5xl font-bold text-gray-700">Technical Skills</h1>
         </div>
 
-        <div className="w-3/4 sm:w-full mt-10 pl-14 grid grid-cols-4  ">
+        <div className="w-3/4 max-sm:w-full mt-10 pl-14 grid grid-cols-4  ">
           <div data-aos="zoom-in-up" className="w-48 mt-10 p-3 pt-7 rounded-lg shadow-[0px_1px_10px_rgba(0,0,0,0.19)] flex items-center flex-col hover:animate-pulse ">
             <img className="w-32" src={htmlimg} />
 
